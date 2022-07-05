@@ -1,4 +1,4 @@
-fetch('https://api.github.com/users/manishmshiva')
+fetch('https://api.github.com/users/')
     // Handle success
     .then(response => response.json())  // convert to json
     .then(json => console.log(json))    //print data to console
